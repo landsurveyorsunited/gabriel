@@ -1,0 +1,30 @@
+{
+    "local": false,
+    "startUrls": [
+        "http://chris-alexander.co.uk/page/90/",
+        "http://chris-alexander.co.uk/page/2/",
+        "http://chris-alexander.co.uk/page/60/",
+        "http://chris-alexander.co.uk/page/30/",
+        "http://chris-alexander.co.uk/page/70/",
+        "http://chris-alexander.co.uk/page/104/",
+        "http://chris-alexander.co.uk/page/20/",
+        "http://chris-alexander.co.uk/page/80/",
+        "http://chris-alexander.co.uk/page/100/",
+        "http://chris-alexander.co.uk/page/50/",
+        "http://chris-alexander.co.uk/page/40/"
+    ],
+    "maxDepth": 10,
+    "pause": 1,
+    "connectorGuid": "6b1438fa-8cd9-445b-8dcf-923080777cfb",
+    "crawlTemplate": [
+        "chris-alexander.co.uk/"
+    ],
+    "advancedMode": true,
+    "dataTemplate": [
+        "chris-alexander.co.uk/on-engineering/{words-num}{any?}/$"
+    ],
+    "connections": 3,
+    "destination": "JSON",
+    "target": "http://localhost:8888",
+    "cookiesEnabled": false
+}

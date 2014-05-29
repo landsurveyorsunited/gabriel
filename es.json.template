@@ -1,0 +1,13 @@
+{
+	"secure": true,
+	"host": "mydomain.east-us.azr.facetflow.io",
+	"index": "blog",
+	"object": "post",
+	"auth": {
+		"type": "http",
+		"credentials": {
+			"username": "",
+			"password": ""
+		}
+	}
+}

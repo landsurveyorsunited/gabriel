@@ -1,0 +1,21 @@
+{
+	"_all": {
+		"_enabled": false
+	},
+	"properties": {
+		"headlines": {
+			"type": "string",
+			"index_name": "headline"
+		},
+		"content": {
+			"type": "string"
+		},
+		"images": {
+			"type": "string",
+			"index_name": "image"
+		}
+	},
+	"_id": {
+		"path": "_hash"
+	}
+}

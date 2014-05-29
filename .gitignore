@@ -1,0 +1,5 @@
+auth.json
+es.json
+crawl.json
+mapping.json
+*.pyc
